@@ -1,0 +1,98 @@
+export const databases = [
+  {
+    name: "MongoDB",
+    link: "https://www.mongodb.com/",
+    img: "/programming/databases_logo/mongodb.svg",
+    description: "",
+  },
+  {
+    name: "MySQL",
+    link: "https://www.mysql.com/",
+    img: "/programming/databases_logo/mysql.svg",
+    description: "",
+  },
+  {
+    name: "PostgreSQL",
+    link: "https://www.postgresql.org/",
+    img: "/programming/databases_logo/postgresql.svg",
+    description: "",
+  },
+  {
+    name: "Oracle",
+    link: "https://www.oracle.com/",
+    img: "/programming/databases_logo/oracle.svg",
+    description: "",
+  },
+  {
+    name: "MSSQL",
+    link: "https://www.microsoft.com/en-us/sql-server",
+    img: "../..//programming/databases_logo/mssql.svg",
+    description: "",
+  },
+  {
+    name: "SQLite",
+    link: "https://www.sqlite.org/index.html",
+    img: "../..//programming/databases_logo/sqlite.svg",
+    description: "",
+  },
+  {
+    name: "MariaDB",
+    link: "https://mariadb.org/",
+    img: "/programming/databases_logo/mariadb.svg",
+    description: "",
+  },
+  {
+    name: "Redis",
+    link: "https://redis.io/",
+    img: "/programming/databases_logo/redis.svg",
+    description: "",
+  },
+  {
+    name: "Elastic",
+    link: "https://www.elastic.co/",
+    img: "/programming/databases_logo/elasticsearch.svg",
+    description: "",
+  },
+  {
+    name: "Cassandra",
+    link: "https://cassandra.apache.org/",
+    img: "/programming/databases_logo/cassandra.svg",
+    description: "",
+  },
+  {
+    name: "Neo4j",
+    link: "https://neo4j.com/",
+    img: "/programming/databases_logo/neo4j.svg",
+    description: "",
+  },
+  {
+    name: "CouchDB",
+    link: "https://couchdb.apache.org/",
+    img: "/programming/databases_logo/couchdb.svg",
+    description: "",
+  },
+  {
+    name: "Dynamo",
+    link: "https://aws.amazon.com/dynamodb/",
+    img: "/programming/databases_logo/dynamodb.svg",
+    description: "",
+  },
+  {
+    name: "IBM",
+    link: "https://www.ibm.com/products/db2",
+    img: "/programming/databases_logo/ibm.svg",
+    description: "",
+  },
+  {
+    name: "OrientDB",
+    link: "http://orientdb.org/",
+    img: "/programming/databases_logo/orient.png",
+    description: "",
+  },
+  {
+    name: "Firebird",
+    link: "https://firebirdsql.org/",
+    img: "/programming/databases_logo/firebird.svg",
+    description: "",
+  },
+];

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Kanit', 'Roboto', sans-serif;
+}
+
+
+@layer utilities {
+  .menu-hover {
+    @apply relative 
+    hover:text-slate-600
+    dark:hover:text-white
+  }
+  .menu-hover::after{
+    @apply content-[''] bg-pink-500 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+  }
+  .menu-hover:hover::after {
+    @apply w-[100%]
+  }
+}
